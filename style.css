@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+.cart{
+    padding-top:20px;
+}
+ 
+.quantity{
+    width: 50px;
+}
+ 
+.card{
+    border:none;
+}
+ 
+.remove,.wish{
+    font-size: xx-small;
+    border: 0;
+    background-color: transparent;
+}
+ 
+.heart:hover,.wish:hover{
+    color:red;
+    font-size: x-small;
+}
+ 
+.remove:hover,.trash:hover{
+    color:gray;
+    font-size: x-small;
+}
